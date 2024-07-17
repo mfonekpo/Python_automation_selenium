@@ -1,6 +1,7 @@
 from flask import Flask, request
 import yagmail
 from dotenv import load_dotenv
+import fill_form
 import os
 
 load_dotenv()
@@ -9,6 +10,7 @@ app = Flask(__name__)
 
 @app.route('/submit_form', methods=['GET'])
 def submit_form():
+    fill_form.fill_google_form()
     send_email()
     return "Email Sent"
 

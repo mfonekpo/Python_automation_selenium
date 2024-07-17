@@ -13,7 +13,7 @@ This project automates the process of filling a Google Form using Selenium and s
 - ChromeDriver
 - Selenium
 - Flask
-- smtplib for sending emails
+- yagmail for sending emails
 
 ## Installation
 
@@ -40,7 +40,7 @@ This project automates the process of filling a Google Form using Selenium and s
     - Run the code" `python app.py`
 
 3. **Access the Flask Endpoint**
-    - Open your browser and navigate to http://127.0.0.1:5000/submit_form to trigger the form submission and email sending process.
+    - Open your browser and navigate to `http://127.0.0.1:5000/submit_form` to trigger the form submission and email sending process.
 
 ## Project Structure
 
