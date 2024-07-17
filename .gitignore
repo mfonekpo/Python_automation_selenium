@@ -1,3 +1,4 @@
 .env
 screenshot*
 menv
+*.pdf
